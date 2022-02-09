@@ -1,0 +1,330 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+} */
+
+/* Style the header */
+.header {
+ text-align: center;
+ width: 100%;
+ height: 180px;
+ /* img-width: 100%;
+img-height: 200%; */
+display: grid;
+background-repeat: none;
+background-size: cover;
+ background-image: url(https://researchnarrative.com/wp-content/uploads/2017/12/shutterstock_638203369-e1513958209638.jpg);
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #111;
+font-weight: bold;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+margin-left: 15px;
+  border-radius: 500px;
+  transition: all 0.5s ease;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #32CD32;
+font-style: normal;
+/* border: 3px  solid  #F0FFF0; */
+/* border-radius: 8px; */
+  color: #fff;
+}
+.btn {
+  background-color: #FFEBCD;
+  border: 3px  solid  #F0FFF0;
+  color: #333;
+  padding: 5px;
+  text-align: center;
+  text-decoration: oblique;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius: 8px;
+}
+
+.btn1:hover {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.KhYbbRIjweO0f7AhsrxVAwHaEK&pid=Api&P=0&w=281&h=158);
+  color: white;
+/*font-style: italic;*/
+border-radius: 8px;
+image-align: center;
+ /*text-shadow: 2px 1px;*/
+}
+.icon-bar {
+  position: fixed;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  opacity: 60%;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  opacity: 1;
+  /* background-color: #6a6a6a; */
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: 	#DCDCDC;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: 	#f0fff0;
+  padding: 20px;
+}
+
+/* image */
+.img2{
+  border-radius: 10px;
+background-image: url(https://glebekitchen.com/wp-content/uploads/2018/01/dalmakhanihigh.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+float: right;
+}
+.img2:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img3{
+  border-radius: 10px;
+ background-image: url(https://recipesinhindi.net/wp-content/uploads/2018/10/kadai-paneer-recipe-22.png);
+ width: 300px;
+ height: 300px;
+ object-fit: contain;
+ padding: 20px;
+float: right;
+}
+.img3:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img4{
+  border-radius: 10px;
+background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/05/eggless-chocolate-cake-2-500x500.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+float: right;
+background-repeat: no-repeat;
+background-size: auto;
+}
+.img4:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img1{
+  border-radius: 10px;
+background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2014/08/gulab-jamun-recipe-2-1-500x500.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+}
+.img1:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img5{
+  border-radius: 10px;
+background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/pasta-salad-2-500x500.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+}
+.img5:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img6{
+  border-radius: 10px;
+background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/chia-pudding-3-500x500.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+}
+.img6:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img7{
+  border-radius: 10px;
+background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe-2-500x500.jpg);
+width: 300px;
+ height: 300px;
+  object-fit: contain;
+ padding: 20px;
+}
+.img7:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.img8{
+ opacity: 0.5;
+background-image: url(https://images.news18.com/ibnlive/uploads/2021/06/1623924457_food-chart.jpg?im=FitAndFill,width=1200,height=900);
+position: fixed;
+float: right;
+}
+.img8:hover{
+opacity: 70%;
+cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: right;
+  background-color: #4682b4;
+}
+.p1{
+float: left;
+}
+.p2{
+float: right;
+}
+
+ /* Iam work area */
+ .side h2,h4 {
+   text-align: center;
+ }
+ /* .side .img1 {
+  align-items: center;
+  justify-content: center;
+ } */
+ .side .img1 {
+   margin-left: 20px;
+ }
+  .side a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+ }
+ .easy {
+   text-align: center;
+   margin-left: 50px;
+
+ }
+ .main {
+   border: 10px solid transparent;
+ }
+ .side .img1,.img2,.img3,.img4,.img5,.img6,.img7{
+   background-size: cover;
+ }
+ .main h2,h4 {
+   text-align: left;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+ .main p {
+   line-height: auto;
+ }
+ .footer {
+   width: 100%;
+ }
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.active{
+background-color: pink;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
